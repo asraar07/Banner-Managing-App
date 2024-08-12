@@ -2,6 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const bannerRoutes = require('./routes/bannerroutes');
+const path = require('path');
 
 const app = express();
 
